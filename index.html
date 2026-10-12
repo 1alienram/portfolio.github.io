@@ -3,8 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Ram Sharma — Macro and commodities research</title>
-<meta name="description" content="Ram Sharma, LSE Global MSc in Management, Finance and Accounting. Commodity markets, macro and quantitative research.">
+<title>Ram Sharma | Commodities and Macro Research</title>
+<meta name="description" content="Ram Sharma, MSc Management, Finance and Accounting, LSE. Systematic research in US natural gas and energy markets.">
+<meta name="author" content="Ram Sharma">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Ram Sharma | Commodities and Macro Research">
+<meta property="og:description" content="Systematic research in US natural gas and energy markets. Published on LSE blogs.">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Person","name":"Ram Sharma","email":"mailto:r.sharma38@lse.ac.uk",
+  "affiliation":{"@type":"CollegeOrUniversity","name":"London School of Economics and Political Science"},
+  "alumniOf":{"@type":"CollegeOrUniversity","name":"Daly College of Business Management, University of Indore"},
+  "knowsAbout":["Commodity markets","Natural gas","Quantitative finance","Consumer behaviour","Philosophy and markets"],
+  "sameAs":["https://www.linkedin.com/in/ram-sharma-273153118"]},
+ {"@type":"BlogPosting","headline":"Nietzsche, Natyashastra and the Indian Consumer",
+  "author":{"@type":"Person","name":"Ram Sharma"},"datePublished":"2026-09-28",
+  "publisher":{"@type":"Organization","name":"South Asia @ LSE, LSE South Asia Centre"},
+  "url":"https://blogs.lse.ac.uk/southasia/2026/09/28/neitzsche-natyashastra-and-the-indian-consumer/"}]}
+</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,6 +105,19 @@ summary{font-family:var(--sans);font-weight:600;cursor:pointer;color:var(--blue)
 .toolkit span{font-family:var(--sans);font-size:.88rem;padding:.3rem .7rem;border:1px solid var(--rule);border-radius:3px}
 ul.clean{padding-left:1.1rem}
 ul.clean li{margin:.35rem 0}
+.paper-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,15rem);gap:2rem;align-items:start;margin-top:1.6rem;padding-top:1.6rem;border-top:3px solid var(--ink)}
+@media(max-width:820px){.paper-card{grid-template-columns:1fr}}
+.venue{font-family:var(--sans);font-size:.92rem;color:var(--muted)}
+.paper-card h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,3vw,2rem);margin:.4rem 0 .6rem}
+.paper-card h3 a{color:var(--ink);text-decoration:none}
+.paper-card h3 a:hover{text-decoration:underline}
+.pull{font-family:var(--serif);font-style:italic;font-size:1.3rem;line-height:1.45;border-left:3px solid var(--amber);padding-left:1rem;margin:1.2rem 0}
+.side dl{font-family:var(--sans);font-size:.9rem;margin:0}
+.side dt{color:var(--muted);margin-top:.7rem}
+.side dd{margin:0}
+.cite{background:var(--paper);border:1px solid var(--rule);padding:.8rem 1rem;font-size:.92rem;margin-top:1rem}
+.btn{font-family:var(--sans);font-weight:600;font-size:.9rem;padding:.5rem .9rem;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:3px;cursor:pointer;text-decoration:none;display:inline-block;margin:.8rem .5rem 0 0}
+.btn.primary{background:var(--ink);color:var(--bg)}
 footer{padding:3rem 0 4rem;font-family:var(--sans);font-size:.95rem}
 footer a{font-weight:600}
 @media(prefers-reduced-motion:no-preference){
@@ -102,10 +132,11 @@ footer a{font-weight:600}
 <nav aria-label="Main">
   <span class="name">Ram Sharma</span>
   <ul>
-    <li><a href="#featured">Natural gas study</a></li>
+    <li><a href="#featured">Natural gas</a></li>
     <li><a href="#research">Research</a></li>
-    <li><a href="#method">Method</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href="#writing">Publications</a></li>
+    <li><a href="#method">Findings</a></li>
+    <li><a href="#about">Profile</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -118,14 +149,14 @@ footer a{font-weight:600}
     <line x1="470" y1="0" x2="470" y2="400" stroke="var(--rule)" stroke-dasharray="4 6"/>
   </svg>
   <div class="wrap inner">
-    <h1>Natural gas, weather and the numbers underneath them.</h1>
-    <p class="lede">I'm Ram Sharma, a student on the LSE Global MSc in Management, Finance and Accounting. I study commodity markets and test ideas about them with code, on real data, until they either hold or break.</p>
-    <blockquote>"Commodities are puzzle pieces of the geopolitical reality continuum of our world."</blockquote>
+    <h1>Ram Sharma</h1>
+    <p class="lede">Commodities and macro research. MSc Management, Finance and Accounting candidate, London School of Economics (2027).</p>
+    <p class="lede" style="color:var(--muted);font-size:1.05rem">Current work: systematic strategies in US natural gas, built around intraday seasonality and the EIA weekly storage release.</p>
     <div class="facts">
-      <div><b>+4%</b><span>natural gas strategy, 2017</span></div>
-      <div><b>−17%</b><span>holding gas, same year</span></div>
-      <div><b>56%</b><span>moves that continued after the EIA report</span></div>
-      <div><b>14</b><span>research stages behind it</span></div>
+      <div><b>+3.9%</b><span>Net return, NG strategy, 2017</span></div>
+      <div><b>−16.7%</b><span>NG buy-and-hold, same period</span></div>
+      <div><b>56%</b><span>Post-EIA continuation rate (n=52)</span></div>
+      <div><b>14</b><span>Backtest iterations</span></div>
     </div>
   </div>
 </header>
@@ -134,287 +165,244 @@ footer a{font-weight:600}
 
 <section id="featured">
 <div class="wrap">
-  <h2>Featured study: trading natural gas around its fundamentals</h2>
+  <h2>US natural gas: intraday seasonality and the EIA storage release</h2>
   <div class="measure">
-    <p>Natural gas is driven by weather, storage and supply. This study combines the two strongest findings from my research programme: a natural gas strategy that beat the market in 2017, and a repeatable price pattern around the weekly US storage report.</p>
+    <p>Two results from the research programme below, both in Henry Hub-linked natural gas (OANDA NATGAS/USD, 1-minute data, calendar year 2017).</p>
   </div>
 
-  <h3 style="margin-top:2rem">Part 1: the strategy that beat holding gas</h3>
-  <p class="measure">Using real 2017 minute data (OANDA), I traded only when two signals agreed: gas's average hourly move over the last 24 hours, and its average move at the same hour over the last 30 days. The exit did most of the work: cut losers at 1× the typical bar size (ATR), sell half at +2× ATR, then trail the rest behind the best price.</p>
+  <h3 style="margin-top:2rem">1. Seasonality strategy with asymmetric exits</h3>
+  <dl class="kv measure">
+    <dt>Entry</dt><dd>Long when both signals are positive, short when both are negative, flat otherwise. Signal A: mean hourly return over the trailing 24 hours. Signal B: mean return of the same clock hour over the trailing 30 sessions.</dd>
+    <dt>Exit</dt><dd>Stop at 1.0× ATR(14). Half the position taken off at 2.0× ATR. Stop on the remainder moved to breakeven, then trailed 1.5× ATR from the high-water mark. Exits resolved on 1-minute bars.</dd>
+    <dt>Costs</dt><dd>1 bp per fill in the base case.</dd>
+  </dl>
   <div class="tbl"><table>
-    <tr><th>Trades</th><th>Win rate</th><th>Needed to break even</th><th>Avg win / loss</th><th>Payoff</th><th>£100 became</th><th>Holding gas</th></tr>
-    <tr class="hl"><td class="n">614</td><td class="n">34.0%</td><td class="n">33.4%</td><td class="n">+1.02% / −0.51%</td><td class="n">1.99 : 1</td><td class="n">£103.94</td><td class="n">£83.33</td></tr>
+    <tr><th>Trades</th><th>Hit ratio</th><th>Break-even hit ratio</th><th>Avg win / avg loss</th><th>Payoff ratio</th><th>Profit factor</th><th>Net return</th><th>Buy-and-hold</th></tr>
+    <tr class="hl"><td class="n">614</td><td class="n">34.0%</td><td class="n">33.4%</td><td class="n">+1.02% / −0.51%</td><td class="n">1.99</td><td class="n">1.03</td><td class="n">+3.9%</td><td class="n">−16.7%</td></tr>
   </table></div>
-  <div class="chart"><div id="f-cross"></div><figcaption>The same strategy on four markets. Winners on gas were about twice the size of losers, which dropped the break-even win rate to 33.4%. Gas was the only market where the strategy cleared it.</figcaption></div>
+  <div class="chart"><div id="f-cross"></div><figcaption>Same entry and exit rules applied across four markets. Higher realised volatility raised the payoff ratio and lowered the break-even hit ratio. Natural gas was the only market where the realised hit ratio exceeded break-even.</figcaption></div>
 
-  <h3 style="margin-top:2rem">Part 2: the storage report pattern</h3>
-  <p class="measure">Every Thursday at 10:30 ET, the US Energy Information Administration (EIA) publishes how much gas went into or out of storage. I scanned a full year of minute data for recurring price spikes, and this minute stood out on its own: about 37× a normal minute.</p>
-  <div class="chart"><div id="f-eia"></div><figcaption>Average 1-minute price move by time on Thursdays, 2017.</figcaption></div>
+  <h3 style="margin-top:2rem">2. EIA weekly storage release: event study</h3>
+  <p class="measure">The EIA Weekly Natural Gas Storage Report is released Thursdays at 10:30 ET. A scan of average absolute 1-minute returns by weekday and time identifies the release as the largest recurring intraday move in the series outside the Sunday reopen.</p>
+  <div class="chart"><div id="f-eia"></div><figcaption>Average absolute 1-minute return, Thursdays, 2017.</figcaption></div>
   <div class="tbl"><table>
-    <tr><th>Measure (52 reports)</th><th>Value</th></tr>
-    <tr><td>First-5-minute reaction</td><td class="n">0.32%, about 7× a normal 5-minute move</td></tr>
-    <tr><td>Price kept moving in its first direction for 3 hours</td><td class="n">56% of reports (58% for bigger reactions)</td></tr>
-    <tr><td>Correlation of first 5 minutes with next 3 hours</td><td class="n">+0.15</td></tr>
+    <tr><th>Measure (52 releases)</th><th>Value</th></tr>
+    <tr><td>Average absolute move, first 5 minutes</td><td class="n">0.32%, approx. 7× a typical 5-minute move</td></tr>
+    <tr><td>Correlation, first 5 minutes vs. following 3 hours</td><td class="n">+0.15</td></tr>
+    <tr><td>Initial direction sustained over 3 hours</td><td class="n">56% (58% for above-median reactions)</td></tr>
+    <tr><td>Approx. 95% confidence interval</td><td class="n">42% to 70%</td></tr>
   </table></div>
 
-  <h3 style="margin-top:2rem">What's honest, and what's next</h3>
+  <h3 style="margin-top:2rem">Caveats and next steps</h3>
   <ul class="clean measure">
-    <li>The strategy's margin over break-even was 0.6 points, and it only held at low trading costs (1 bp). At 2 bp it slipped to £92.</li>
-    <li>The 56% pattern comes from one year. Its likely range is 42% to 70%, so it still needs testing across 10+ years.</li>
-    <li>Buying weekly options on the pattern lost money: options need a bigger move than their price, not just the right direction.</li>
-    <li>Next I'm building a fundamental model that scores weather, storage and supply surprises, to forecast the EIA number before it prints.</li>
+    <li>The strategy clears break-even by 0.6 percentage points and is cost-sensitive: net return falls to −8.0% at 2 bp per fill.</li>
+    <li>The continuation result rests on one year of data; the confidence interval includes 50%. Out-of-sample testing on 2010 to 2024 is the next step.</li>
+    <li>Expressing the continuation view through long weekly options lost the full premium; option cost (approx. 3.0% of spot) exceeded the typical weekly move.</li>
+    <li>In development: a surprise model scoring weather (gas-weighted degree days), storage (actual vs. consensus) and supply (dry gas production, LNG feedgas) to forecast the storage print.</li>
   </ul>
-  <p class="measure"><a href="#research">See all 14 stages of the research that led here</a></p>
 </div>
 </section>
 
 <section id="research">
 <div class="wrap">
-  <h2>The full research programme: 14 stages</h2>
+  <h2>Research programme: intraday return seasonality, 14 iterations</h2>
   <div class="measure">
-    <p>One question ran through this project: <em>can an asset's next move be predicted by blending how it's behaving today with how it has behaved at the same time of day in the past?</em></p>
-    <p>I tested that idea across the S&amp;P 500, Bitcoin, WTI crude oil and natural gas, using real 1-minute data from 2017. Each stage changed one thing, measured it honestly, and fed the next. Most stages failed. That is the point: the failures show exactly where an edge can and can't come from, and they led me from price patterns to energy fundamentals.</p>
+    <p>Each iteration tests one change against real 2017 data in S&amp;P 500, Bitcoin, WTI crude and natural gas. Weights were fitted only on prior data, transaction costs were included from the first test, and all results are reported, including negative ones.</p>
   </div>
 
-  <div class="chart">
-    <figure style="margin:0">
-      <div id="c-cross"></div>
-      <figcaption>The headline result. Win rate achieved versus the win rate needed to break even, using the same strategy and exit on four markets. Only natural gas cleared its bar.</figcaption>
-    </figure>
-  </div>
+  <div class="chart"><div id="c-cross"></div><figcaption>Realised vs. break-even hit ratio by market, iteration 10.</figcaption></div>
 
-  <!-- Stage 1 -->
   <article class="stage">
     <div class="num">1</div>
     <div>
-      <h3>Copper 1 PM → 2 PM price predictor</h3>
-      <span class="tag design">Design flaw found</span><span class="tag">Python · yfinance</span>
+      <h3>Copper: 1 PM to 2 PM level forecast</h3>
+      <span class="tag design">Specification error</span>
       <dl class="kv">
-        <dt>Hypothesis</dt>
-        <dd>The 2 PM price equals 50% × the average of today's prices before 1 PM, plus 50% × the average 2 PM close over the last 30 days. If the forecast is above the 1 PM price, buy a call.</dd>
-        <dt>Why copper</dt>
-        <dd>Market research showed copper trading in a defined range, a fair test of a "stable or cyclical" commodity.</dd>
+        <dt>Hypothesis</dt><dd>2 PM price = 0.5 × mean of today's pre-1 PM prices + 0.5 × mean 2 PM close over 30 sessions. Buy calls if the forecast exceeds the 1 PM price.</dd>
+        <dt>Finding</dt><dd>Averaging price levels biases the forecast in trending markets: a 10% monthly rise places the 30-day average well below spot, producing a persistent sell signal.</dd>
+        <dt>Change</dt><dd>All subsequent models are specified in returns.</dd>
       </dl>
-      <p>I built a model that pulls 15-minute data, computes both averages, outputs a forecast and a signal, and backtests it. Before running it live, I found a flaw: averaging past price <em>levels</em> breaks whenever price is trending. If copper rose 10% in a month, the 30-day average sits far below today's price, so the model would almost always say "down".</p>
-      <pre>pred_2pm = 0.5 * morning_mean + 0.5 * mean(close_2pm, last 30 days)   # level model (flawed)
-pred_2pm = p_1pm + 0.5*(morning_mean - p_1pm)
-                 + 0.5*mean(close_2pm - close_1pm, last 30 days)        # delta model (fix)</pre>
-      <div class="lesson"><strong>What changed:</strong> every later model works in percentage returns, not prices. A return from 40 days ago is comparable to today's; a price is not.</div>
+      <pre>pred_2pm = p_1pm + 0.5*(morning_mean - p_1pm)
+                 + 0.5*mean(close_2pm - close_1pm, last 30 sessions)</pre>
     </div>
   </article>
 
-  <!-- Stage 2 -->
   <article class="stage">
     <div class="num">2</div>
     <div>
-      <h3>Two-dimension model and walk-forward engine</h3>
-      <span class="tag design">Engine validated</span><span class="tag">Synthetic self-test</span>
+      <h3>Two-factor model and walk-forward framework</h3>
+      <span class="tag design">Framework validated</span>
       <dl class="kv">
-        <dt>Dimension A, "how today is going"</dt><dd>Today's cumulative return from the open up to the start of the slot.</dd>
-        <dt>Dimension B, "this slot's history"</dt><dd>The average return of the same clock-time slot over the previous 40 trading days.</dd>
-        <dt>Research basis</dt><dd>Heston, Korajczyk and Sadka (2010) found that a stock's return in a given half-hour predicts its return in the same half-hour on later days, for around 40 days. Gao, Han, Li and Zhou documented intraday momentum.</dd>
+        <dt>Factors</dt><dd>A: cumulative return from the open to the start of the slot. B: mean return of the same 30-minute slot over the prior 40 sessions (after Heston, Korajczyk and Sadka, 2010, <em>Journal of Finance</em>).</dd>
+        <dt>Method</dt><dd>Factors standardised per slot; sign estimated from training-window correlation. Weight w selected by walk-forward optimisation (120-session training window, 20-session test window, rolled forward). Weight stability tracked across folds.</dd>
+        <dt>Validation</dt><dd>Run on simulated data with a known embedded signal.</dd>
       </dl>
-      <pre>y[d,s] = P[d,s] / P[d,s-1] - 1                 # the bar's return (what we bet on)
-A[d,s] = P[d,s-1] / P[d,open] - 1              # known before the bar starts
-B[d,s] = mean(y[d-k, s] for k in 1..40)        # same slot, strictly earlier days
-score  = w*sA*z(A) + (1-w)*sB*z(B)             # z = standardised, s = learned sign
-trade  = +1 if score &gt; theta, -1 if score &lt; -theta, else 0</pre>
-      <p>The weight <em>w</em> is never hand-picked. A <strong>walk-forward</strong> loop fits it on 120 past days, trades the next 20 unseen days, then rolls forward, the way real trading works. I also check whether the chosen weight stays stable from window to window. To prove the engine could find a real edge, I first ran it on synthetic data with a small edge planted in it.</p>
-      <div class="chart"><div id="c-synth"></div><figcaption>Synthetic test, 1,560 trades. The planted edge was real (+5.1% before costs), but a cost of just 0.01% per trade turned it into a loss.</figcaption></div>
-      <div class="lesson"><strong>Lesson:</strong> an edge about the size of the trading spread vanishes once you trade often. More trades multiply costs, not profit. The best weight was also unstable (standard deviation 0.30 across windows), which signals noise.</div>
+      <pre>score = w * sA * z(A) + (1 - w) * sB * z(B)
+position = sign(score) if |score| &gt; threshold else 0</pre>
+      <div class="chart"><div id="c-synth"></div><figcaption>Simulated data, 1,560 trades. Out-of-sample net return by round-trip cost.</figcaption></div>
+      <p>The framework recovered the embedded signal (+5.1% gross). At 1 bp round-trip cost, net return was −10.5%. Optimal weight varied across folds (standard deviation 0.30).</p>
     </div>
   </article>
 
-  <!-- Stage 3 -->
   <article class="stage">
     <div class="num">3</div>
     <div>
-      <h3>S&amp;P 500 real-data backtest: what would £100 have made?</h3>
-      <span class="tag loss">£100 → £83.63</span><span class="tag">HistData · 30-min bars</span>
-      <p>I pulled real 2017 S&amp;P 500 minute data from a public GitHub archive. The API was rate-limited, so I fetched the 868 MB repo archive directly, extracted the 222,026-row file, converted time zones to New York and kept regular hours only. The 50/50 weight was fixed in advance, so there was no tuning on the test data. The test ran over 54 days at about 12 bets a day.</p>
+      <h3>S&amp;P 500, 30-minute bars, equal weighting</h3>
+      <span class="tag loss">Net −16.4%</span>
+      <p>2017 S&amp;P 500 1-minute data (HistData), regular trading hours, 30-minute bars. Weight fixed at 0.5 ex ante. 54 sessions, 644 trades. Hit ratio 44.4%.</p>
       <div class="tbl"><table>
-        <tr><th>Cost per round trip</th><th>£100 became</th><th>Profit / loss</th></tr>
-        <tr><td>0 bp (free)</td><td class="n">£95.13</td><td class="n">−£4.87</td></tr>
-        <tr><td>1 bp</td><td class="n">£89.19</td><td class="n">−£10.81</td></tr>
-        <tr><td>2 bp (realistic)</td><td class="n">£83.63</td><td class="n">−£16.37</td></tr>
-        <tr><td>4 bp</td><td class="n">£73.52</td><td class="n">−£26.48</td></tr>
-        <tr><td>Buy and hold</td><td class="n">£102.52</td><td class="n">+£2.52</td></tr>
+        <tr><th>Round-trip cost</th><th>Net return</th></tr>
+        <tr><td>0 bp</td><td class="n">−4.9%</td></tr>
+        <tr><td>1 bp</td><td class="n">−10.8%</td></tr>
+        <tr><td>2 bp</td><td class="n">−16.4%</td></tr>
+        <tr><td>4 bp</td><td class="n">−26.5%</td></tr>
+        <tr><td>Buy-and-hold</td><td class="n">+2.5%</td></tr>
       </table></div>
-      <p>The directional hit rate was 44.4%, below a coin flip. On one sample day (15 Aug 2017) the model called 4 of 11 slots correctly.</p>
     </div>
   </article>
 
-  <!-- Stage 4 -->
   <article class="stage">
     <div class="num">4</div>
     <div>
-      <h3>Same-day options and a call + put hedge</h3>
-      <span class="tag loss">£100 → ~£0</span><span class="tag">Black-Scholes pricing</span>
-      <p>Next I tested options instead of the index itself: one option in the predicted direction, and also a call plus a put together as a hedge instead of a stop loss. I priced every option with the Black-Scholes formula at 12% implied volatility, with a 2% bid-ask spread on each side.</p>
+      <h3>0DTE options: directional and straddle</h3>
+      <span class="tag loss">Capital lost</span>
+      <p>Options priced with Black-Scholes at 12% implied volatility, 2% bid-ask per side, ATM strikes, 30-minute holding period.</p>
       <div class="tbl"><table>
-        <tr><th>Setup</th><th>Average per trade</th><th>Profitable trades</th><th>£100 became</th></tr>
-        <tr><td>Single directional option</td><td class="n">−14.5%</td><td class="n">28%</td><td class="n">~£0</td></tr>
-        <tr><td>Call + put hedge</td><td class="n">−8.1%</td><td class="n">18%</td><td class="n">~£0</td></tr>
+        <tr><th>Structure</th><th>Avg return per trade</th><th>Winning trades</th></tr>
+        <tr><td>Directional (call or put)</td><td class="n">−14.5%</td><td class="n">28%</td></tr>
+        <tr><td>Straddle</td><td class="n">−8.1%</td><td class="n">18%</td></tr>
       </table></div>
-      <div class="lesson"><strong>Why:</strong> the hedge cost 0.18% of the index, so it needed a 0.18% move in 30 minutes just to break even. The average 30-minute move was 0.06%. It needed 3.2× more movement than the market gave.</div>
+      <p>Straddle premium averaged 0.18% of the index against an average absolute 30-minute move of 0.06%. Required move exceeded realised move by 3.2×.</p>
     </div>
   </article>
 
-  <!-- Stage 5 -->
   <article class="stage">
     <div class="num">5</div>
     <div>
-      <h3>Weight optimisation sweep</h3>
-      <span class="tag loss">Best w = 0.8, still below 50%</span>
-      <p>I swept the weight from 0.1 (trust the slot history) to 0.9 (trust today), on both the index and options.</p>
-      <div class="chart"><div id="c-wsweep"></div><figcaption>Hit rate for each weight. Every weight scored below a coin flip (42.8% to 47.3%). Results were best at the extremes and worst in the middle, so blending two weak signals just averaged their noise.</figcaption></div>
-      <p>The "best" weight, 0.8, turned £100 into £86.35. It didn't win; it lost the least, and it was chosen with hindsight.</p>
+      <h3>Weight optimisation, w = 0.1 to 0.9</h3>
+      <span class="tag loss">All weights below 50%</span>
+      <div class="chart"><div id="c-wsweep"></div><figcaption>Hit ratio by weight on factor A.</figcaption></div>
+      <p>Hit ratios ranged from 42.8% to 47.3%. Best in-sample weight 0.8 (net −13.7%). Performance was highest at the extremes and lowest in the middle of the range.</p>
     </div>
   </article>
 
-  <!-- Stage 6 -->
   <article class="stage">
     <div class="num">6</div>
     <div>
-      <h3>Geometric mean: trade only when both signals agree</h3>
-      <span class="tag loss">Hit rate fell; money rose</span>
-      <p>A geometric mean of two signed signals only gives a value when both point the same way. That makes it an agreement filter: both up means buy, both down means sell, and disagreement means no trade.</p>
+      <h3>Geometric mean: agreement filter</h3>
+      <span class="tag loss">Lower hit ratio, lower turnover</span>
       <div class="tbl"><table>
-        <tr><th>Method</th><th>Trades</th><th>Hit rate</th><th>£100 became</th></tr>
-        <tr><td>Arithmetic, w = 0.5</td><td class="n">644</td><td class="n">44.4%</td><td class="n">£83.63</td></tr>
-        <tr><td>Arithmetic, w = 0.8</td><td class="n">644</td><td class="n">46.3%</td><td class="n">£86.35</td></tr>
-        <tr><td>Geometric, all agreements</td><td class="n">281</td><td class="n">43.2%</td><td class="n">£91.73</td></tr>
-        <tr><td>Geometric, strong only</td><td class="n">140</td><td class="n">42.0%</td><td class="n">£95.30</td></tr>
-        <tr><td>Bars it skipped (signals disagree)</td><td class="n">—</td><td class="n">48.8%</td><td class="n">—</td></tr>
+        <tr><th>Combination</th><th>Trades</th><th>Hit ratio</th><th>Net return</th></tr>
+        <tr><td>Arithmetic, w = 0.5</td><td class="n">644</td><td class="n">44.4%</td><td class="n">−16.4%</td></tr>
+        <tr><td>Arithmetic, w = 0.8</td><td class="n">644</td><td class="n">46.3%</td><td class="n">−13.7%</td></tr>
+        <tr><td>Geometric, all agreements</td><td class="n">281</td><td class="n">43.2%</td><td class="n">−8.3%</td></tr>
+        <tr><td>Geometric, top half by strength</td><td class="n">140</td><td class="n">42.0%</td><td class="n">−4.7%</td></tr>
+        <tr><td>Excluded bars (factors disagree)</td><td class="n">—</td><td class="n">48.8%</td><td class="n">—</td></tr>
       </table></div>
-      <div class="lesson"><strong>Lesson:</strong> hit rate measures skill; profit measures skill × how often you trade × costs. The filter made money only by trading less. And the bars it threw away had the best hit rate, which is the signature of noise, not signal.</div>
+      <p>Improvement in net return came from lower turnover, not higher accuracy. Excluded bars had the highest hit ratio, inconsistent with a genuine confirmation effect.</p>
     </div>
   </article>
 
-  <!-- Stage 7 -->
   <article class="stage">
     <div class="num">7</div>
     <div>
       <h3>Weighted geometric mean</h3>
-      <span class="tag loss">£1.89 spread across all weights</span>
-      <pre>g_w = |A|^w * |B|^(1-w)     # only on bars where A and B agree in sign</pre>
-      <p>One mathematical point: when trades are decided by direction alone, this weight does nothing, because the agreement rule fixes the sign. It only matters once a strength cut-off is added, so I kept the strongest 50% of agreement signals for each weight (about 141 trades each).</p>
-      <div class="chart"><div id="c-wgm"></div><figcaption>Underlying £100 result for each weight. The best by money (w = 0.4, £96.14) and the best by hit rate (w = 0.7, 44.2%) disagree, and the whole range is under £2.</figcaption></div>
+      <span class="tag loss">Range of 1.9 points</span>
+      <pre>g_w = |A|^w * |B|^(1 - w)      # agreement bars only, top 50% by g_w</pre>
+      <div class="chart"><div id="c-wgm"></div><figcaption>Net return by weight, approx. 141 trades each.</figcaption></div>
+      <p>Return-maximising weight (0.4) and hit-ratio-maximising weight (0.7) did not coincide. Weight has no effect without a strength threshold, since direction is fixed by the agreement condition.</p>
     </div>
   </article>
 
-  <!-- Stage 8 -->
   <article class="stage">
     <div class="num">8</div>
     <div>
-      <h3>Bitcoin with a "let winners run" exit</h3>
-      <span class="tag loss">£100 → £28.18</span><span class="tag">Bitstamp · 525,600 minutes</span>
-      <p>So far every test exited after one bar, which makes wins and losses about equal in size. I changed the <em>exit</em>, not the signal: cut losers fast and let winners run, the way trend-followers do, so a below-50% win rate can still pay. I chose Bitcoin because its moves are big enough to clear trading costs.</p>
-      <dl class="kv">
-        <dt>Signals</dt><dd>A = average hourly return over the last 24 hours (crypto has no daily open). B = average return of this hour over the last 30 days. Trade only when both agree.</dd>
-        <dt>Exit</dt><dd>Stop loss at 1× ATR (the average size of recent bars). Sell half at +2× ATR. Move the stop on the rest to breakeven, then trail it 1.5× ATR behind the best price. Checked minute by minute, so the model knows which level was hit first.</dd>
-      </dl>
+      <h3>Bitcoin with asymmetric exits</h3>
+      <span class="tag loss">Net −71.8%</span>
+      <p>Exit rules changed from a fixed one-bar hold to ATR-based stop, partial take-profit and trailing stop. Bitstamp BTC/USD, 525,600 minutes, 10 bp per fill.</p>
       <div class="tbl"><table>
-        <tr><th>Trades</th><th>Win rate</th><th>Needed</th><th>Avg win / loss</th><th>Payoff</th><th>Biggest win</th><th>£100 became</th><th>Holding BTC</th></tr>
-        <tr><td class="n">909</td><td class="n">36.6%</td><td class="n">38.9%</td><td class="n">+2.76% / −1.76%</td><td class="n">1.57 : 1</td><td class="n">+13.1%</td><td class="n">£28.18</td><td class="n">£1,969.68</td></tr>
+        <tr><th>Trades</th><th>Hit ratio</th><th>Break-even</th><th>Payoff ratio</th><th>Profit factor</th><th>Max drawdown</th><th>Net return</th><th>Buy-and-hold</th></tr>
+        <tr><td class="n">909</td><td class="n">36.6%</td><td class="n">38.9%</td><td class="n">1.57</td><td class="n">0.91</td><td class="n">75%</td><td class="n">−71.8%</td><td class="n">+1,869.7%</td></tr>
       </table></div>
-      <div class="lesson"><strong>Lesson:</strong> the exit worked. Winners were clearly bigger than losers. The signal still fell 2.3 points short of its break-even win rate, and 379 short trades fought 2017's huge rally.</div>
+      <p>Payoff ratio rose above 1.5 for the first time. Hit ratio remained 2.3 points below break-even. 379 short trades ran against the 2017 rally.</p>
     </div>
   </article>
 
-  <!-- Stage 9 -->
   <article class="stage">
     <div class="num">9</div>
     <div>
-      <h3>S&amp;P 500 with the same exit</h3>
-      <span class="tag loss">£100 → £91.90</span>
-      <p>352 trades, a 42.3% win rate against 49.6% needed, and a payoff of only 1.02 : 1. The index moves too little in a day, and closing every position by 4 PM capped the winners. Holding the S&amp;P for the year gave £118.85.</p>
+      <h3>S&amp;P 500 with asymmetric exits</h3>
+      <span class="tag loss">Net −8.1%</span>
+      <p>352 trades, hit ratio 42.3% vs. break-even 49.6%, payoff ratio 1.02, profit factor 0.75, max drawdown 11%. Buy-and-hold +18.9%. Low intraday volatility and a flat-by-close rule limited the payoff ratio.</p>
     </div>
   </article>
 
-  <!-- Stage 10 -->
   <article class="stage win">
     <div class="num">10</div>
     <div>
-      <h3>Cyclical commodities: WTI crude and natural gas</h3>
-      <span class="tag win">Natural gas: £100 → £103.94</span><span class="tag">OANDA minute data</span>
-      <p>My hypothesis: more volatile, more cyclical assets lower the win rate you need, because bigger moves let the exit build bigger winners.</p>
+      <h3>Energy: WTI crude and natural gas</h3>
+      <span class="tag win">NG net +3.9%</span>
       <div class="tbl"><table>
-        <tr><th>Asset</th><th>Payoff</th><th>Needed</th><th>Achieved</th><th>Margin</th><th>£100 became</th><th>Buy &amp; hold</th></tr>
-        <tr><td>S&amp;P 500</td><td class="n">1.02</td><td class="n">49.6%</td><td class="n">42.3%</td><td class="n">−7.3</td><td class="n">£91.90</td><td class="n">£118.85</td></tr>
-        <tr><td>WTI crude</td><td class="n">1.93</td><td class="n">34.1%</td><td class="n">29.7%</td><td class="n">−4.4</td><td class="n">£68.21</td><td class="n">£112.20</td></tr>
-        <tr><td>Bitcoin</td><td class="n">1.57</td><td class="n">38.9%</td><td class="n">36.6%</td><td class="n">−2.3</td><td class="n">£28.18</td><td class="n">£1,969.68</td></tr>
-        <tr class="hl"><td>Natural gas</td><td class="n">1.99</td><td class="n">33.4%</td><td class="n">34.0%</td><td class="n">+0.6</td><td class="n">£103.94</td><td class="n">£83.33</td></tr>
+        <tr><th>Market</th><th>Payoff ratio</th><th>Break-even</th><th>Hit ratio</th><th>Margin (pts)</th><th>Net return</th><th>Buy-and-hold</th></tr>
+        <tr><td>S&amp;P 500</td><td class="n">1.02</td><td class="n">49.6%</td><td class="n">42.3%</td><td class="n">−7.3</td><td class="n">−8.1%</td><td class="n">+18.9%</td></tr>
+        <tr><td>WTI crude</td><td class="n">1.93</td><td class="n">34.1%</td><td class="n">29.7%</td><td class="n">−4.4</td><td class="n">−31.8%</td><td class="n">+12.2%</td></tr>
+        <tr><td>Bitcoin</td><td class="n">1.57</td><td class="n">38.9%</td><td class="n">36.6%</td><td class="n">−2.3</td><td class="n">−71.8%</td><td class="n">+1,869.7%</td></tr>
+        <tr class="hl"><td>Natural gas</td><td class="n">1.99</td><td class="n">33.4%</td><td class="n">34.0%</td><td class="n">+0.6</td><td class="n">+3.9%</td><td class="n">−16.7%</td></tr>
       </table></div>
-      <p>Natural gas was the first profitable result in the programme, and it beat holding gas by about 21 points. As volatility rose, the break-even bar fell from 49.6% to 33.4%, which supports the hypothesis.</p>
-      <div class="chart"><div id="c-cost"></div><figcaption>Natural gas sensitivity to trading cost per fill. Realistic gas spreads are 2–5 bp, which erase the profit.</figcaption></div>
-      <div class="lesson"><strong>Honest limits:</strong> a +0.6 point margin is within random variation, and the signal itself didn't improve. Volatility and the exit did the work. Volatility doesn't create an edge; it amplifies whichever edge you have, positive or negative.</div>
+      <div class="chart"><div id="c-cost"></div><figcaption>Natural gas net return by cost per fill.</figcaption></div>
+      <p>Break-even hit ratio fell from 49.6% (S&amp;P 500) to 33.4% (natural gas) as volatility increased. The natural gas result outperformed buy-and-hold by 20.6 points but is within sampling error and does not survive costs above 1 bp.</p>
     </div>
   </article>
 
-  <!-- Stage 11 -->
   <article class="stage">
     <div class="num">11</div>
     <div>
-      <h3>Leveraged natural gas: 2× and 3×</h3>
-      <span class="tag loss">Leverage magnifies, never creates</span>
+      <h3>Leverage: 2× and 3× natural gas</h3>
+      <span class="tag loss">No change in expectancy</span>
       <div class="tbl"><table>
-        <tr><th>Leverage</th><th>Win rate</th><th>Break-even</th><th>£100 became (no costs)</th><th>Worst drawdown</th></tr>
-        <tr><td>1×</td><td class="n">34.0%</td><td class="n">32.1%</td><td class="n">£118</td><td class="n">10%</td></tr>
-        <tr><td>2×</td><td class="n">34.0%</td><td class="n">32.1%</td><td class="n">£133</td><td class="n">19%</td></tr>
-        <tr><td>3×</td><td class="n">34.0%</td><td class="n">32.1%</td><td class="n">£144</td><td class="n">27%</td></tr>
+        <tr><th>Leverage</th><th>Hit ratio</th><th>Break-even</th><th>Gross return</th><th>Max drawdown</th></tr>
+        <tr><td>1×</td><td class="n">34.0%</td><td class="n">32.1%</td><td class="n">+18%</td><td class="n">10%</td></tr>
+        <tr><td>2×</td><td class="n">34.0%</td><td class="n">32.1%</td><td class="n">+33%</td><td class="n">19%</td></tr>
+        <tr><td>3×</td><td class="n">34.0%</td><td class="n">32.1%</td><td class="n">+44%</td><td class="n">27%</td></tr>
       </table></div>
-      <p>Win rate and break-even were identical at every level. 3× returned +44%, not +54%, because compounding leverage causes volatility decay. In reality it is worse: leveraged ETFs trade about 6.5 hours a day (most signals fired overnight), they reset daily, and 3× gas products have repeatedly lost over 99% of their value.</p>
+      <p>3× gross return was 10 points below the linear multiple due to volatility drag. Daily-reset leveraged ETFs trade only during US hours and carry additional decay; most signals in this strategy fired outside those hours.</p>
     </div>
   </article>
 
-  <!-- Stage 12 -->
   <article class="stage win">
     <div class="num">12</div>
     <div>
-      <h3>EIA storage report event study</h3>
-      <span class="tag win">56% continuation</span><span class="tag">52 events</span>
-      <p>Natural gas is driven by weather, storage and supply, not by its own past prices. So I looked for an edge around a scheduled information event: the US Energy Information Administration's weekly storage report, Thursdays at 10:30 ET. I scanned a year of minute data for the largest recurring price spikes, and the report stood out on its own.</p>
-      <div class="chart"><div id="c-eia"></div><figcaption>Average 1-minute price move by time. The Thursday 10:30 report minute averages 0.63%, about 37× a normal minute.</figcaption></div>
-      <div class="tbl"><table>
-        <tr><th>Measure</th><th>Value</th></tr>
-        <tr><td>First-5-minute reaction</td><td class="n">0.32% (≈7× a normal 5-minute move)</td></tr>
-        <tr><td>Correlation of first 5 minutes with the next 3 hours</td><td class="n">+0.15</td></tr>
-        <tr><td>Following the first move for 3 hours was right</td><td class="n">56% (58% on bigger reactions)</td></tr>
-        <tr><td>Approximate 95% confidence interval</td><td class="n">42% to 70%</td></tr>
-      </table></div>
-      <div class="lesson"><strong>Why it matters:</strong> this was the first price signal to clear 50%, and it came from real information, not price patterns alone. With only 52 events the interval still includes 50%, so it's a lead to validate across 10+ years, not a proven edge.</div>
+      <h3>EIA storage release event study</h3>
+      <span class="tag win">56% continuation</span>
+      <div class="chart"><div id="c-eia"></div><figcaption>Average absolute 1-minute return around the 10:30 ET release.</figcaption></div>
+      <p>Release-minute move averaged 0.63%, about 37× a typical minute. Over 52 releases, the initial 5-minute direction persisted for 3 hours 56% of the time (correlation +0.15). The confidence interval (42% to 70%) includes 50%; multi-year testing is required.</p>
     </div>
   </article>
 
-  <!-- Stage 13 -->
   <article class="stage">
     <div class="num">13</div>
     <div>
-      <h3>A fundamental model for natural gas</h3>
-      <span class="tag design">In design</span>
-      <p>Gas price is supply versus demand, with storage as the buffer. That gives three markers, each scored as a <em>surprise</em> (actual versus what the market expected), because only surprises move price.</p>
-      <ul class="clean">
-        <li><strong>Weather (demand):</strong> gas-weighted heating and cooling degree days from the GFS and ECMWF weather models. The change between forecast runs matters most, especially 11–15 days out.</li>
-        <li><strong>Storage (balance):</strong> the weekly EIA number against the analyst consensus, and storage against its 5-year average.</li>
-        <li><strong>Supply:</strong> US dry gas production, LNG export feedgas, rig counts and winter freeze-offs.</li>
-      </ul>
+      <h3>Fundamental surprise model (in development)</h3>
+      <span class="tag design">Specification</span>
       <pre>Score = w1*z_weather + w2*z_storage + w3*z_supply
-z_i   = (actual_i - expected_i) / std(past surprises_i)
-weights from: r_next_week ~ w1*z1 + w2*z2 + w3*z3   (regression, validated walk-forward)</pre>
-      <p>Most of the work is building reliable "expected" values, especially for weather. I'm now studying the reports themselves before fixing the equation.</p>
+z_i   = (actual_i - consensus_i) / std(historical surprise_i)
+r_t+1w = w1*z1 + w2*z2 + w3*z3 + e      # OLS, walk-forward</pre>
+      <dl class="kv">
+        <dt>Weather</dt><dd>Change in gas-weighted HDD/CDD between GFS and ECMWF model runs, with emphasis on the 11 to 15 day window.</dd>
+        <dt>Storage</dt><dd>EIA injection or withdrawal vs. analyst consensus; inventory vs. the five-year average.</dd>
+        <dt>Supply</dt><dd>Dry gas production, LNG feedgas, Baker Hughes rig count, winter freeze-offs.</dd>
+      </dl>
     </div>
   </article>
 
-  <!-- Stage 14 -->
   <article class="stage">
     <div class="num">14</div>
     <div>
-      <h3>Weekly Thursday-to-Thursday gas options</h3>
-      <span class="tag loss">£100 → £0</span>
-      <p>I lined weekly options up with the report cycle (buy Thursday 11:00, expire the next Thursday), priced at 55% implied volatility with a 5% spread, using a stop loss and a +100% profit target.</p>
-      <div class="chart"><div id="c-weekly"></div><figcaption>Share of winning trades. A wider −50% stop and a tight −10% stop both went to zero.</figcaption></div>
-      <div class="lesson"><strong>Why:</strong> a one-week option cost about 3.0% of the gas price, while the average weekly move was 3.8%. A bought option needs the right direction <em>and</em> a big enough move before time decay eats it. A 10% stop was also tighter than the ~9.5% round-trip spread, so the spread alone triggered it.</div>
+      <h3>Weekly natural gas options, Thursday to Thursday</h3>
+      <span class="tag loss">Capital lost</span>
+      <p>ATM one-week options bought after the EIA release, priced at 55% implied volatility with a 5% spread per side, +100% take-profit.</p>
+      <div class="chart"><div id="c-weekly"></div><figcaption>Winning trades by signal and stop level.</figcaption></div>
+      <p>Average option cost of approx. 3.0% of spot against an average absolute weekly move of 3.8%. The −10% stop sat inside the approx. 9.5% round-trip spread and was triggered by execution costs alone.</p>
     </div>
   </article>
 </div>
@@ -423,67 +411,89 @@ weights from: r_next_week ~ w1*z1 + w2*z2 + w3*z3   (regression, validated walk-
 <section id="method">
 <div class="wrap two">
   <div>
-    <h2>What the programme taught</h2>
+    <h2>Findings</h2>
     <ul class="clean measure">
-      <li><strong>Being right isn't the same as making money.</strong> Profit = win rate × size of wins versus losses − cost of every trade.</li>
-      <li><strong>No way of combining two price signals beat a coin flip.</strong> I tried five: arithmetic, an optimised weight, geometric, weighted geometric, and an agreement filter.</li>
-      <li><strong>Volatility lowers the bar.</strong> The exit cut the needed win rate from 50% to 33%, which is how natural gas turned a profit.</li>
-      <li><strong>Bought options need direction and size.</strong> They lost in every setup tested.</li>
-      <li><strong>Leverage only magnifies.</strong></li>
-      <li><strong>The one real lead came from fundamental information,</strong> not price history.</li>
+      <li>No combination of the two price factors produced a hit ratio above 50% in any market tested.</li>
+      <li>Net performance was driven more by turnover and transaction costs than by hit ratio.</li>
+      <li>Asymmetric exits lowered the break-even hit ratio from 50% to 33% in higher-volatility markets.</li>
+      <li>Long options underperformed the underlying in every configuration tested.</li>
+      <li>Leverage scaled returns and drawdowns without changing expectancy.</li>
+      <li>The strongest result came from a fundamental catalyst, not from price history.</li>
     </ul>
   </div>
   <div>
-    <h2>How I work</h2>
-    <p class="measure">Every model was written in Python and tested on real minute-level data pulled from public GitHub repositories, inside a Linux test environment. Every stage used the same rules: no tuning on the data I'm graded on, costs built in from the start, and results reported even when they hurt.</p>
+    <h2>Tools and methods</h2>
+    <p class="measure">All models built in Python on 1-minute data sourced from public GitHub repositories (HistData, Bitstamp, OANDA), in a Linux environment.</p>
     <div class="toolkit">
-      <span>Python</span><span>pandas</span><span>NumPy</span><span>Black-Scholes pricing</span><span>Walk-forward validation</span><span>Event studies</span><span>Cost sensitivity</span><span>Overfitting checks</span><span>Regression</span><span>Git / GitHub data pipelines</span><span>Bash</span><span>SQL / MySQL</span>
+      <span>Python</span><span>pandas</span><span>NumPy</span><span>Black-Scholes</span><span>Walk-forward optimisation</span><span>Event studies</span><span>Transaction cost analysis</span><span>Regression</span><span>Git</span><span>Bash</span><span>SQL</span>
     </div>
     <details>
-      <summary>Show the exit engine (Python)</summary>
+      <summary>Exit logic (Python)</summary>
 <pre>def simulate_exit(i0, d, E, atr):
-    stop = E - d*STOP_ATR*atr          # cut losers at 1x ATR
-    tp   = E + d*TP_ATR*atr            # book half at 2x ATR
+    stop = E - d*STOP_ATR*atr
+    tp   = E + d*TP_ATR*atr
     H, L = Hi[i0+1:end+1], Lo[i0+1:end+1]
     sl  = (L &lt;= stop) if d &gt; 0 else (H &gt;= stop)
     tph = (H &gt;= tp)   if d &gt; 0 else (L &lt;= tp)
-    if first(sl) &lt;= first(tph):        # stop hit first: full loss
+    if first(sl) &lt;= first(tph):
         return d*(stop-E)/E - costs
-    half = 0.5 * d*(tp-E)/E            # target hit: bank half
-    run  = running_best(prices after tp)
-    trail = max(E, run - TRAIL_ATR*atr) # breakeven, then trail
+    half  = 0.5 * d*(tp-E)/E
+    run   = running_best(prices after tp)
+    trail = max(E, run - TRAIL_ATR*atr)
     return half + 0.5*d*(exit_at(trail)-E)/E - costs</pre>
     </details>
   </div>
 </div>
 </section>
 
+<section id="writing">
+<div class="wrap">
+  <h2>Publications</h2>
+  <article class="paper-card">
+    <div>
+      <p class="venue">South Asia @ LSE, LSE South Asia Centre, 28 September 2026</p>
+      <h3><a href="https://blogs.lse.ac.uk/southasia/2026/09/28/neitzsche-natyashastra-and-the-indian-consumer/" rel="noopener">Nietzsche, Natyashastra and the Indian Consumer</a></h3>
+      <p class="measure">Examines why Western consumer firms have repeatedly misjudged the Indian market. The essay draws on Nietzsche's distinction between Apollonian and Dionysian modes and on the theory of <em>rasa</em> in Bharata's <em>Natyashastra</em> to argue that Indian consumption is collective and experience-led rather than individual and utility-led, with implications for pricing, positioning and market entry.</p>
+      <p class="pull">"They brought Apollo to a Dionysian market."</p>
+      <a class="btn primary" href="https://blogs.lse.ac.uk/southasia/2026/09/28/neitzsche-natyashastra-and-the-indian-consumer/" rel="noopener">Read on LSE blogs</a>
+      <button class="btn" type="button" id="copy-cite">Copy citation</button>
+      <div class="cite" id="cite-text">Sharma, R. (2026) 'Nietzsche, Natyashastra and the Indian Consumer', <em>South Asia @ LSE</em>, 28 September. Available at: https://blogs.lse.ac.uk/southasia/2026/09/28/neitzsche-natyashastra-and-the-indian-consumer/</div>
+    </div>
+    <aside class="side">
+      <dl>
+        <dt>Publisher</dt><dd>LSE South Asia Centre</dd>
+        <dt>Subject areas</dt><dd>Consumer behaviour, emerging markets strategy, India</dd>
+        <dt>Licence</dt><dd>Creative Commons</dd>
+      </dl>
+    </aside>
+  </article>
+</div>
+</section>
+
 <section id="about">
 <div class="wrap two">
   <div>
-    <h2>About</h2>
-    <p class="measure">I'm studying the Global MSc in Management, Finance and Accounting at the London School of Economics, graduating in 2027. I'm drawn to commodity markets because they sit where economics, geography and politics meet: a cold forecast, a pipeline outage or a sanctions decision shows up in a price within minutes.</p>
-    <p class="measure">Before LSE I completed a BBA in Strategic Finance at Daly College of Business Management, University of Indore, graduating as Gold Medallist and Valedictorian.</p>
+    <h2>Profile</h2>
+    <p class="measure">MSc Management, Finance and Accounting candidate at the London School of Economics, graduating 2027. Research interests: commodity markets and their geopolitical drivers, corporate strategy, and consumer behaviour.</p>
+    <p class="measure">BBA in Strategic Finance, Daly College of Business Management, University of Indore. Gold Medallist and Valedictorian.</p>
   </div>
   <div>
-    <h2>Selected work</h2>
+    <h2>Awards and early work</h2>
     <ul class="clean">
-      <li><strong>Writing:</strong> <em>Nietzsche, Natyashastra and the Indian Consumer</em>, LSE South Asia blog, 28 Sep 2026.</li>
-      <li><strong>Winner, 22nd IMA Quest for Leadership:</strong> a nuclear desalination framework, as part of a three-person team.</li>
-      <li><strong>2nd place, IMA Quest for Leadership:</strong> led <em>Nanocarbonics</em>, a strategy for carbon nanomaterials made from biomass.</li>
-      <li><strong>Early code:</strong> a Python desktop app that calculated astronomical distances, backed by a MySQL database.</li>
+      <li>Winner, 22nd IMA Quest for Leadership: nuclear desalination framework (team of three).</li>
+      <li>Runner-up, IMA Quest for Leadership: <em>Nanocarbonics</em>, a commercial strategy for biomass-derived carbon nanomaterials (team lead).</li>
+      <li>Python desktop application for astronomical distance calculation with a MySQL back end.</li>
     </ul>
   </div>
 </div>
 </section>
 
 </main>
-
 <footer id="contact">
   <div class="wrap">
     <h2>Contact</h2>
-    <p>Email <a href="mailto:r.sharma38@lse.ac.uk">r.sharma38@lse.ac.uk</a> or find me on <a href="https://www.linkedin.com/in/ram-sharma-273153118" rel="noopener">LinkedIn</a>.</p>
-    <p style="color:var(--muted);font-size:.85rem">Research results use historical 2017 data and simulated option prices. They are research, not investment advice.</p>
+    <p><a href="mailto:r.sharma38@lse.ac.uk">r.sharma38@lse.ac.uk</a> | <a href="https://www.linkedin.com/in/ram-sharma-273153118" rel="noopener">LinkedIn</a></p>
+    <p style="color:var(--muted);font-size:.85rem">Backtests use 2017 historical data; option prices are modelled. Past performance is not indicative of future results. Nothing on this site is investment advice.</p>
   </div>
 </footer>
 
@@ -533,33 +543,40 @@ weights from: r_next_week ~ w1*z1 + w2*z2 + w3*z3   (regression, validated walk-
   function draw(){
     document.querySelectorAll(".chart div[id]").forEach(function(d){d.innerHTML=""});
     bars("c-cross",["S&P 500","WTI crude","Bitcoin","Natural gas"],
-      [{n:"Win rate needed",c:"--rule",v:[49.6,34.1,38.9,33.4]},
-       {n:"Win rate achieved",c:"--blue",v:[42.3,29.7,36.6,34.0],colorFn:function(v,i){return i===3?css("--green"):css("--blue")}}],
+      [{n:"Break-even hit ratio",c:"--rule",v:[49.6,34.1,38.9,33.4]},
+       {n:"Realised hit ratio",c:"--blue",v:[42.3,29.7,36.6,34.0],colorFn:function(v,i){return i===3?css("--green"):css("--blue")}}],
       {unit:"%",min:0,max:55,title:"Win rate needed versus achieved by market"});
     bars("c-synth",["0 bp","1 bp","3 bp"],[{n:"Net return",c:"--blue",v:[5.11,-10.49,-41.69],colorFn:function(v){return v>0?css("--green"):css("--red")}}],
       {unit:"%",fmt:function(v){return(v>0?"+":"")+v+"%"},title:"Synthetic engine result by cost"});
     line("c-wsweep",["0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"],[47.3,46.9,46.3,45.3,44.4,42.8,43.8,46.3,46.6],
-      {min:40,max:52,unit:"%",ref:50,refLabel:"coin flip (50%)",title:"Hit rate by weight"});
-    bars("c-wgm",["0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"],[{n:"£100 became",c:"--blue",v:[96.06,96.00,95.88,96.14,95.33,95.15,94.87,94.25,94.51]}],
-      {min:90,max:100,unit:"",ref:100,refLabel:"starting £100",fmt:function(v){return"£"+v.toFixed(0)},title:"Weighted geometric mean result by weight"});
-    bars("c-cost",["1 bp","2 bp","5 bp"],[{n:"£100 became",c:"--blue",v:[103.94,92,64],colorFn:function(v){return v>=100?css("--green"):css("--red")}}],
-      {min:0,max:120,ref:100,refLabel:"starting £100",fmt:function(v){return"£"+Math.round(v)},title:"Natural gas cost sensitivity"});
-    bars("c-eia",["Typical minute","Thu 10:30","Thu 10:31","Thu 10:32","Thu 10:33","Thu 10:34"],[{n:"Avg move",c:"--blue",v:[0.017,0.632,0.190,0.179,0.168,0.145],colorFn:function(v,i){return i===1?css("--amber"):css("--blue")}}],
+      {min:40,max:52,unit:"%",ref:50,refLabel:"50%",title:"Hit rate by weight"});
+    bars("c-wgm",["0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"],[{n:"Net return",c:"--red",v:[-3.94,-4.00,-4.12,-3.86,-4.67,-4.85,-5.13,-5.75,-5.49]}],
+      {min:-7,max:0,unit:"%",fmt:function(v){return v.toFixed(1)+"%"},title:"Net return by weight"});
+    bars("c-cost",["1 bp","2 bp","5 bp"],[{n:"Net return",c:"--blue",v:[3.9,-8.0,-36.0],colorFn:function(v){return v>=0?css("--green"):css("--red")}}],
+      {min:-40,max:10,unit:"%",fmt:function(v){return(v>0?"+":"")+v.toFixed(1)+"%"},title:"Natural gas net return by cost"});
+    bars("c-eia",["Typical","10:30","10:31","10:32","10:33","10:34"],[{n:"Avg move",c:"--blue",v:[0.017,0.632,0.190,0.179,0.168,0.145],colorFn:function(v,i){return i===1?css("--amber"):css("--blue")}}],
       {min:0,max:0.7,unit:"%",fmt:function(v){return v+"%"},title:"Average 1-minute move around the EIA report"});
-    bars("c-weekly",["Momentum −50%","EIA −50%","Momentum −10%","EIA −10%"],[{n:"Winning trades",c:"--red",v:[12,16,6,2]}],
+    bars("c-weekly",["Momentum, −50% stop","EIA, −50% stop","Momentum, −10% stop","EIA, −10% stop"],[{n:"Winning trades",c:"--red",v:[12,16,6,2]}],
       {min:0,max:20,unit:"%",fmt:function(v){return v+"%"},title:"Weekly options win rate by setup"});
   }
   var _d=draw; draw=function(){_d();
     bars("f-cross",["S&P 500","WTI crude","Bitcoin","Natural gas"],
-      [{n:"Win rate needed",c:"--rule",v:[49.6,34.1,38.9,33.4]},
-       {n:"Win rate achieved",c:"--blue",v:[42.3,29.7,36.6,34.0],colorFn:function(v,i){return i===3?css("--green"):css("--blue")}}],
+      [{n:"Break-even hit ratio",c:"--rule",v:[49.6,34.1,38.9,33.4]},
+       {n:"Realised hit ratio",c:"--blue",v:[42.3,29.7,36.6,34.0],colorFn:function(v,i){return i===3?css("--green"):css("--blue")}}],
       {unit:"%",min:0,max:55,title:"Win rate needed versus achieved by market"});
-    bars("f-eia",["Typical minute","Thu 10:30","Thu 10:31","Thu 10:32","Thu 10:33","Thu 10:34"],[{n:"Avg move",c:"--blue",v:[0.017,0.632,0.190,0.179,0.168,0.145],colorFn:function(v,i){return i===1?css("--amber"):css("--blue")}}],
+    bars("f-eia",["Typical","10:30","10:31","10:32","10:33","10:34"],[{n:"Avg move",c:"--blue",v:[0.017,0.632,0.190,0.179,0.168,0.145],colorFn:function(v,i){return i===1?css("--amber"):css("--blue")}}],
       {min:0,max:0.7,unit:"%",fmt:function(v){return v+"%"},title:"Average 1-minute move around the EIA report"});
   };
   draw();
   if(window.matchMedia){var m=window.matchMedia("(prefers-color-scheme: dark)");if(m.addEventListener)m.addEventListener("change",draw)}
 })();
+</script>
+<script>
+(function(){var b=document.getElementById("copy-cite"),t=document.getElementById("cite-text");if(!b||!t)return;
+b.addEventListener("click",function(){var v=t.innerText;
+ function done(){b.textContent="Citation copied";setTimeout(function(){b.textContent="Copy citation"},2000)}
+ try{if(navigator.clipboard){navigator.clipboard.writeText(v).then(done,function(){})}}catch(e){}
+});})();
 </script>
 </body>
 </html>
